@@ -65,7 +65,7 @@
         <hk2.plugin.version>2.5.0-b42</hk2.plugin.version>
         <glassfishbuild.version>3.2.4</glassfishbuild.version>
         <glassfish.version>4.1.2</glassfish.version>
-        <grizzly.version>2.4.1</grizzly.version>
+        <grizzly.version>2.4.4</grizzly.version>
 
 	<!-- begin of websocket dependencies -->
 	<json.version>1.1</json.version>
@@ -84,7 +84,7 @@
         <junit.version>4.12</junit.version>
         <findbugs.skip>false</findbugs.skip>
         <findbugs.threshold>High</findbugs.threshold>
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.version>3.0.3</findbugs.version>
     </properties>
 
@@ -495,7 +495,7 @@
                 <configuration>
                     <!-- By default, we don't export anything.
                     -->
-                    <Export-Package></Export-Package>
+                    <Export-Package/>
                     <instructions>
                         <!-- Read all the configuration from osgi.bundle file, if it exists.
                              See Felix-699 to find out why we use ${basedir}.
