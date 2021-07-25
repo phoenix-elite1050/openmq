@@ -79,12 +79,12 @@
 
         <jaf.version>1.1.1</jaf.version>
         <javamail.version>1.6.0</javamail.version>
-        <javax.xml.soap-api.version>1.4.0-b01</javax.xml.soap-api.version>
+        <javax.xml.soap-api.version>1.4.0</javax.xml.soap-api.version>
         <saaj-impl.version>1.4.0-b03</saaj-impl.version>
         <junit.version>4.12</junit.version>
         <findbugs.skip>false</findbugs.skip>
         <findbugs.threshold>High</findbugs.threshold>
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.version>3.0.3</findbugs.version>
     </properties>
 
@@ -495,7 +495,7 @@
                 <configuration>
                     <!-- By default, we don't export anything.
                     -->
-                    <Export-Package></Export-Package>
+                    <Export-Package/>
                     <instructions>
                         <!-- Read all the configuration from osgi.bundle file, if it exists.
                              See Felix-699 to find out why we use ${basedir}.
