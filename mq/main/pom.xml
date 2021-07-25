@@ -74,7 +74,7 @@
 	
         <servlet-api.version>4.0.0</servlet-api.version>
         <jsp-api.version>2.3.2-b02</jsp-api.version>
-        <javax.resource-api.version>1.7</javax.resource-api.version>
+        <javax.resource-api.version>1.7.1</javax.resource-api.version>
         <javahelp.version>2.0.06</javahelp.version>
 
         <jaf.version>1.1.1</jaf.version>
@@ -84,7 +84,7 @@
         <junit.version>4.12</junit.version>
         <findbugs.skip>false</findbugs.skip>
         <findbugs.threshold>High</findbugs.threshold>
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.version>3.0.3</findbugs.version>
     </properties>
 
@@ -495,7 +495,7 @@
                 <configuration>
                     <!-- By default, we don't export anything.
                     -->
-                    <Export-Package></Export-Package>
+                    <Export-Package/>
                     <instructions>
                         <!-- Read all the configuration from osgi.bundle file, if it exists.
                              See Felix-699 to find out why we use ${basedir}.
